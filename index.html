@@ -9,11 +9,11 @@
 </head>
   <body>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
         <div class="container-fluid">
               <!-- IMG EN NAVBAR -->
-<img src="assets/img/viajes.svg" alt="logo">
-          <a class="navbar-brand" href="#">Navbar</a>
+<img id="logo" src="assets/img/viajes.svg" alt="logo">
+          <a class="navbar-brand" href="#">Viajes Chile</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -23,13 +23,16 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Quienes Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link disabled" aria-disabled="true">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Contacto</a>
               </li>
             </ul>
           </div>
@@ -38,7 +41,6 @@
 <!-- fin navbar -->
 
 <!-- CARRUSELL -->
-
 <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -64,13 +66,24 @@
     <h1>¿QUIÉNES SOMOS?</h1>
     <!-- linea -->
     <hr>
-    <!-- parrafos con simbolos -->
-    <img src="" alt="">
-    <p>lorem</p>
-    <p>lorem</p>
-    <img src="" alt="">
-    <img src="" alt="">
-    <p>lorem</p>
+    <!-- los iconos podran ser blancos e ir dentro de un h2 de fondo calipso??  -->
+    <!-- <h2>fondo celeste mas icono blanco?</h2> -->
+    <!--icono avion con parrafos -->
+    <img class="icono" src="" alt="">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
+       Fugit tempora tempore aut eos harum magni magnam sapiente debitis rem <br>
+       officiis asperiores dolorem ipsa maxime possimus, tenetur perspiciatis <br>
+       dignissimos! Deleniti, quisquam.</p>
+    <!-- parrafo con icono triangulo -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid <br>
+       voluptate molestiae reprehenderit soluta? Veritatis quae ducimus dolores <br>
+       eveniet deleniti aut eaque odio assumenda eum nisi, quo accusantium sint omnis nihil!</p>
+    <img  class="icono" alt="">
+    <!--icono ruta con parrafos -->
+    <img  class="icono"src="" alt="">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nihil <br>
+       cupiditate velit molestias molestiae aliquid amet aperiam libero dolores nulla <br>
+       voluptas, deserunt ducimus beatae, inventore magni! Nobis voluptatibus ipsum sapiente.</p>
 
     <h1>DESTACADOS</h1>
     <!-- linea -->
@@ -79,32 +92,32 @@
 <div>
     <!-- card 1 -->
     <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="assets/img/card1.jpg" class="card-img-top" alt="paisaje 1">
         <div class="card-body">
-            <h2>siii??</h2>
+            <h2>Lorem ipsum dolor</h2>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
 <!-- card 2 -->
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="assets/img/card2.jpg" class="card-img-top" alt="paisaje 2">
         <div class="card-body">
-            <h2>siii??</h2>
+            <h2>consectetur adipisicing</h2>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
 <!-- card 3 -->
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="assets/img/card3.jpg" class="card-img-top" alt="paisaje 3">
         <div class="card-body">
-            <h2>siii??</h2>
+            <h2> build on the card </h2>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
 
 <!-- card 4 -->
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h2>siii??</h2>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -130,10 +143,10 @@
       <input type="checkbox" class="form-check-input" id="exampleCheck1">
       <label class="form-check-label" for="exampleCheck1">Check me out</label>
     </div>
-    <button type="submit" class="btn btn-primary">Enviar</button>
+    <button type="submit" class="btn btn-primary  ">Enviar</button>
   </form>
 
-<footer>con iconos</footer> 
+<footer>Viajes Chile</footer> 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="assets/js/script.js"></script>  
